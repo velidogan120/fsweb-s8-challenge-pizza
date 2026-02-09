@@ -1,0 +1,70 @@
+.card-section {
+  background-color: var(--beige);
+}
+
+.card-section .order {
+  text-align: left;
+}
+
+.card-section .order .order-card {
+  color: var(--white);
+  border-radius: 12px;
+  padding: 44px 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-section .order .order-card .btn {
+  margin-top: 10px;
+  padding: 0 18px;
+  border-radius: 50px;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  line-height: 32px;
+  width: fit-content;
+}
+
+.card-section .order .order-card {
+  &:nth-child(1) {
+    background: url("../../images/iteration-2-images/cta/kart-1.png") no-repeat
+      center/cover;
+    h3 {
+      font-size: 63px;
+      font-family: "quattrocento", serif;
+      line-height: 72px;
+    }
+    p {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+  }
+}
+
+.card-section .order .right-cards div:nth-child(1) .order-card {
+  &:nth-child(1) {
+    background: url("../../images/iteration-2-images/cta/kart-2.png") no-repeat
+      center/cover;
+    h3 {
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 44px;
+    }
+  }
+}
+.card-section .order .right-cards div:nth-child(2) .order-card {
+  &:nth-child(1) {
+    background: url("../../images/iteration-2-images/cta/kart-3.png") no-repeat
+      center right/cover;
+    h3 {
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 44px;
+      color: var(--dark-gray);
+      span {
+        color: var(--red);
+      }
+    }
+  }
+}

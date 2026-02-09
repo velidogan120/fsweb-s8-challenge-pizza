@@ -1,0 +1,34 @@
+.home-banner {
+  background: url("../../images/iteration-1-images/home-banner.png") no-repeat
+    top center/400%;
+  height: 100vh;
+  width: 100%;
+  padding: 110px 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-banner img {
+  width: 440px;
+}
+
+.home-banner h2 {
+  font-weight: 300;
+  font-size: 86px;
+  text-transform: uppercase;
+  color: var(--beige);
+  letter-spacing: 1.5px;
+  line-height: 92px;
+  margin: 40px 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.home-banner .badge {
+  display: none;
+  font-family: "satisfy", sans-serif;
+  color: var(--yellow);
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 400;
+}

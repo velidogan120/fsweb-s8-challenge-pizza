@@ -1,0 +1,30 @@
+.category-section {
+  background-color: var(--white);
+  padding: 10px 65px;
+  width: 100%;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.category-section .categories {
+  margin: 0;
+  padding: 32px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 41px;
+}
+
+.category-section .category-item a {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32.4px;
+  color: var(--dark-gray);
+  white-space: nowrap;
+}
+
+.category-section .category-item a img {
+  margin-right: 15px;
+}
