@@ -21,9 +21,9 @@
   border-radius: 50px;
   font-size: 14px;
   letter-spacing: 0;
-  text-transform: uppercase;
   line-height: 32px;
   width: fit-content;
+  color: var(--red);
 }
 
 .card-section .order .order-card {

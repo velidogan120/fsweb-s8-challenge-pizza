@@ -1,9 +1,11 @@
 import { Container, Row, Col } from "reactstrap";
 import "../../src/css/footer.css";
 import { FaTwitter } from "react-icons/fa";
+import { useLocation } from "react-router";
 function Footer() {
+  const { pathname } = useLocation();
   return (
-    <footer>
+    <footer style={{ display: pathname === "/order" ? "none" : "block" }}>
       <div className="page-info">
         <Container className="p-5">
           <Row className="g-5 gap-y-5 px-5 py-3">

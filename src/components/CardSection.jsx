@@ -1,5 +1,6 @@
 import { Container, Row, Col, Button } from "reactstrap";
 import "../css/card-section.css";
+import { Link } from "react-router";
 function CardSection() {
   return (
     <section className="card-section">
@@ -11,7 +12,12 @@ function CardSection() {
                 <h3>Özel</h3>
                 <h3>Lezzetus</h3>
                 <p>Position:Absolute Acı Burger</p>
-                <Button className="btn btn-white">Sipariş Ver</Button>
+                <Link
+                  to="/order"
+                  className="btn bg-white rounded-pill px-5 py-2 fs-5 mt-5 fw-medium"
+                >
+                  SİPARİŞ VER
+                </Link>
               </div>
             </Col>
 
@@ -21,7 +27,12 @@ function CardSection() {
                   <div className="order-card">
                     <h3>Hackathlon</h3>
                     <h3>Burger Menü</h3>
-                    <Button className="btn btn-white">Sipariş Ver</Button>
+                    <Link
+                      to="/order"
+                      className="btn bg-white rounded-pill px-5 py-2 fs-5 mt-5 fw-medium"
+                    >
+                      SİPARİŞ VER
+                    </Link>
                   </div>
                 </Col>
 
@@ -31,7 +42,12 @@ function CardSection() {
                       <span>Çoooook</span> hızlı
                     </h3>
                     <h3>npm gibi kurye</h3>
-                    <Button className="btn btn-white">Sipariş Ver</Button>
+                    <Link
+                      to="/order"
+                      className="btn bg-white rounded-pill px-5 py-2 fs-5 mt-5 fw-medium"
+                    >
+                      SİPARİŞ VER
+                    </Link>
                   </div>
                 </Col>
               </Row>

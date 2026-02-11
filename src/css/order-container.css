@@ -1,0 +1,72 @@
+.order-container {
+  width: 420px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--light-gray);
+}
+
+.order-container .container {
+  --bs-gutter-x: 0;
+}
+
+.order-container h4 {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.order-container h5 {
+  font-size: 28px;
+}
+
+.order-container label {
+  font-size: 22px;
+}
+.order-container textarea {
+  height: 60px;
+}
+.order-container h6 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.order-container .card {
+  font-weight: 600;
+}
+.order-container .card .row {
+  font-size: 18px;
+}
+
+.order-container .total {
+  color: var(--red);
+}
+
+.order-container .order-container-buttons button,
+.order-container .order-container-buttons a {
+  font-weight: 600;
+}
+
+.order-container .order-container-buttons button:last-child {
+  height: 50px;
+}
+
+.order-container .order-info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "info-card info-card"
+    "amount complete-order";
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.order-container .order-info .info-card {
+  grid-area: info-card;
+}
+.order-container .order-info .amount {
+  grid-area: amount;
+}
+.order-container .order-info .complete-order {
+  grid-area: complete-order;
+}

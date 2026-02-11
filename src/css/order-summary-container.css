@@ -1,0 +1,25 @@
+.order-summary {
+  background: var(--red);
+  min-height: calc(100vh - 207px);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 207px;
+}
+
+.order-summary h6 {
+  color: var(--yellow);
+  font-family: "satisfy", cursive;
+  font-size: 32px;
+}
+
+.order-summary h {
+  font-size: 86px;
+}
+
+.order-summary .order-summary-card {
+  background: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+}

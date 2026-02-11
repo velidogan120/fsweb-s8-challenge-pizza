@@ -1,3 +1,24 @@
+.custom-breadcrumb {
+  --bs-breadcrumb-divider: "-";
+}
+
+.custom-breadcrumb .breadcrumb-item a {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.custom-breadcrumb .breadcrumb-item.active {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.custom-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  color: var(--white);
+}
+
 .home-banner {
   background: url("../../images/iteration-1-images/home-banner.png") no-repeat
     top center/400%;
@@ -7,6 +28,25 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+}
+
+.home-other {
+  background-color: var(--red);
+  height: 207px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.home-other .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  height: 100%;
+  width: 420px;
 }
 
 .home-banner img {
