@@ -3,6 +3,7 @@
   background-color: var(--dark);
   color: var(--white);
   text-align: left;
+  font-size: 18px;
 }
 
 .page-info .menu {

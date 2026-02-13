@@ -160,6 +160,7 @@
       "amount info-card"
       ". complete-order";
     align-items: start;
+    row-gap: 0;
   }
   .order-container .order-info .amount {
     align-self: start;

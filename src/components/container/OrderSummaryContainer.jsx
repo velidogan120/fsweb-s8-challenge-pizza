@@ -1,6 +1,7 @@
 import { Container, Row, Col, Card, CardBody } from "reactstrap";
 import "../../css/order-summary-container.css";
-function OrderSummaryContainer() {
+function OrderSummaryContainer({ order }) {
+  console.log(order);
   return (
     <div className="order-summary d-flex justify-content-center align-items-center">
       <Container className="text-center">
@@ -28,17 +29,22 @@ function OrderSummaryContainer() {
           <div className="col-4 col-md-2 my-4 mx-auto text-start row-gap-2 d-flex flex-column">
             <p className="mb-1">
               Boyut:
-              <span className="fw-bold ms-1"> L</span>
+              <span className="fw-bold ms-1"> {order?.size || "L"}</span>
             </p>
             <p className="mb-1">
               Hamur:
-              <span className="fw-bold ms-1"> Süper İnce</span>
+              <span className="fw-bold ms-1">
+                {order?.dough || "Süper İnce"}
+              </span>
             </p>
             <p className="mb-0" style={{ whiteSpace: "nowrap" }}>
               Ek Malzemeler:
-              <span className="fw-bold ms-1">
-                Pepperoni,
-                <span className="d-block">Sosis, Mısır, Ananas,</span> Jalepeno
+              <span className="fw-bold ms-1 d-flex flex-wrap gap-1">
+                {order?.extras
+                  ? order.extras.map((extra, index) => (
+                      <span key={index}>{`${extra}, `}</span>
+                    ))
+                  : "Malzeme Seçilmedi"}
               </span>
             </p>
           </div>
@@ -57,7 +63,7 @@ function OrderSummaryContainer() {
 
                 <Row>
                   <Col className="text-start">Toplam</Col>
-                  <Col className="text-end">110.50₺</Col>
+                  <Col className="text-end">{order?.price || 110.5}₺</Col>
                 </Row>
               </CardBody>
             </Card>

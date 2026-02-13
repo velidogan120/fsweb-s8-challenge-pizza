@@ -1,0 +1,69 @@
+{
+  "extras": [
+    "Pepperoni",
+    "Sosis",
+    "Kanada Jambonu",
+    "Tavuk Izgara",
+    "Soğan",
+    "Domates",
+    "Mısır",
+    "Sucuk",
+    "Jalepeno",
+    "Sarımsak",
+    "Biber",
+    "Zeytin",
+    "Ananas",
+    "Kabak"
+  ],
+  "subCategories": [
+    { "name": "Ramen", "img": "../../images/iteration-2-images/icons/1.svg" },
+    { "name": "Pizza", "img": "../../images/iteration-2-images/icons/2.svg" },
+    { "name": "Burger", "img": "../../images/iteration-2-images/icons/3.svg" },
+    {
+      "name": "French Fries",
+      "img": "../../images/iteration-2-images/icons/4.svg"
+    },
+    {
+      "name": "Fast Food",
+      "img": "../../images/iteration-2-images/icons/5.svg"
+    },
+    {
+      "name": "Soft Drinks",
+      "img": "../../images/iteration-2-images/icons/6.svg"
+    }
+  ],
+  "products": [
+    {
+      "name": "Terminal Pizza",
+      "img": "../../images/iteration-2-images/pictures/food-1.png"
+    },
+    {
+      "name": "Position Absolute Acı Pizza",
+      "img": "../../images/iteration-2-images/pictures/food-2.png"
+    },
+    {
+      "name": "useEffect Tavuklu Burger",
+      "img": "../../images/iteration-2-images/pictures/food-3.png"
+    }
+  ],
+  "categories": [
+    {
+      "name": "YENİ! Kore",
+      "img": "../../images/iteration-2-images/icons/1.svg"
+    },
+    { "name": "Pizza", "img": "../../images/iteration-2-images/icons/2.svg" },
+    { "name": "Burger", "img": "../../images/iteration-2-images/icons/3.svg" },
+    {
+      "name": "Kızartmalar",
+      "img": "../../images/iteration-2-images/icons/4.svg"
+    },
+    {
+      "name": "Fast Food",
+      "img": "../../images/iteration-2-images/icons/5.svg"
+    },
+    {
+      "name": "Gazlı İçecek",
+      "img": "../../images/iteration-2-images/icons/6.svg"
+    }
+  ]
+}

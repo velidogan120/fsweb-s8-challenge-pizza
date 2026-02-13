@@ -1,21 +1,8 @@
 import { Row, Col, Container } from "reactstrap";
 import "../css/sub-category.css";
 import Products from "./Products";
+import { subCategories } from "../data.json";
 const SubCategory = () => {
-  const subCategories = [
-    { name: "Ramen", img: "../../images/iteration-2-images/icons/1.svg" },
-    { name: "Pizza", img: "../../images/iteration-2-images/icons/2.svg" },
-    { name: "Burger", img: "../../images/iteration-2-images/icons/3.svg" },
-    {
-      name: "French Fries",
-      img: "../../images/iteration-2-images/icons/4.svg",
-    },
-    { name: "Fast Food", img: "../../images/iteration-2-images/icons/5.svg" },
-    {
-      name: "Soft Drinks",
-      img: "../../images/iteration-2-images/icons/6.svg",
-    },
-  ];
   return (
     <div className="sub-category p-5">
       <Container>
@@ -32,7 +19,16 @@ const SubCategory = () => {
           <Row className="categories">
             {subCategories.map((category, index) => (
               <Col xs="6" md="2" className="category-item" key={index}>
-                <a href="#">
+                <a
+                  href="#"
+                  style={{
+                    background:
+                      category.name === "Pizza"
+                        ? "var(--dark)"
+                        : "var(--white)",
+                    color: category.name === "Pizza" ? "#fff" : "inherit",
+                  }}
+                >
                   <img src={category.img} alt={category.name} />
                   {category.name}
                 </a>

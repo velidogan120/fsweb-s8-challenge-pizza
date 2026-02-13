@@ -14,7 +14,7 @@ function CardSection() {
                 <p>Position:Absolute Acı Burger</p>
                 <Link
                   to="/order"
-                  className="btn bg-white rounded-pill px-5 py-2 fs-5 mt-5 fw-medium"
+                  className="btn bg-white rounded-pill px-5 py-2 fs-6 mt-2 fw-medium"
                 >
                   SİPARİŞ VER
                 </Link>
@@ -29,7 +29,7 @@ function CardSection() {
                     <h3>Burger Menü</h3>
                     <Link
                       to="/order"
-                      className="btn bg-white rounded-pill px-5 py-2 fs-5 mt-5 fw-medium"
+                      className="btn bg-white rounded-pill px-5 py-2 fs-6 mt-2 fw-medium"
                     >
                       SİPARİŞ VER
                     </Link>
@@ -44,7 +44,7 @@ function CardSection() {
                     <h3>npm gibi kurye</h3>
                     <Link
                       to="/order"
-                      className="btn bg-white rounded-pill px-5 py-2 fs-5 mt-5 fw-medium"
+                      className="btn bg-white rounded-pill px-5 py-2 fs-6 mt-2 fw-medium"
                     >
                       SİPARİŞ VER
                     </Link>

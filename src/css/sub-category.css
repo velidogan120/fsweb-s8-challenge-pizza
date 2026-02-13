@@ -71,10 +71,20 @@
   transition: 0.3s;
 }
 
+.product-card h5 {
+  font-size: 0.83rem;
+  font-weight: 700;
+}
+
 .product-card h4 {
   font-size: 20px;
   font-weight: 600;
   margin: 15px 0;
+}
+
+.product-card span {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .product-card .price {

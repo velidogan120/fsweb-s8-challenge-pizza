@@ -1,19 +1,6 @@
 import { Row, Col } from "reactstrap";
+import { products } from "../data.json";
 const Products = () => {
-  const products = [
-    {
-      name: "Terminal Pizza",
-      img: "../../images/iteration-2-images/pictures/food-1.png",
-    },
-    {
-      name: "Position Absolute Acı Pizza",
-      img: "../../images/iteration-2-images/pictures/food-2.png",
-    },
-    {
-      name: "useEffect Tavuklu Burger",
-      img: "../../images/iteration-2-images/pictures/food-3.png",
-    },
-  ];
   return (
     <div>
       <Row className="products p-5 gap-4">

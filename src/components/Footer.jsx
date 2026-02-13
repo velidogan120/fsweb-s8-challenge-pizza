@@ -7,15 +7,15 @@ function Footer() {
   return (
     <footer style={{ display: pathname === "/order" ? "none" : "block" }}>
       <div className="page-info">
-        <Container className="p-5">
+        <Container className="px-4 py-5">
           <Row className="g-5 gap-y-5 px-5 py-3">
             <Col md="4" className="contact">
               <img
                 src="../../images/iteration-2-images/footer/logo-footer.svg"
                 alt=""
               />
-              <ul className="contact-list d-flex flex-column gap-3 m-0 p-1 pt-4">
-                <li className="contact-item d-flex align-items-start gap-3">
+              <ul className="contact-list d-flex flex-column gap-4 m-0 p-1 pt-4">
+                <li className="contact-item d-flex align-items-start gap-3 mt-4">
                   <img
                     src="../../images/iteration-2-images/footer/icons/icon-1.png"
                     alt=""
@@ -40,8 +40,8 @@ function Footer() {
             </Col>
 
             <Col md="4" className="menu">
-              <h3>Hot Menu</h3>
-              <ul className="menu-list m-0 p-0 d-flex flex-column gap-3">
+              <h3 className="mt-5">Hot Menu</h3>
+              <ul className="menu-list mt-5 p-0 d-flex flex-column gap-3">
                 <li className="menu-item">
                   <a href="#">Terminal Pizza</a>
                 </li>

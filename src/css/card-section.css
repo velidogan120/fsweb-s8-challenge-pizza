@@ -45,7 +45,8 @@
 .card-section .order .right-cards div:nth-child(1) .order-card {
   &:nth-child(1) {
     background: url("../../images/iteration-2-images/cta/kart-2.png") no-repeat
-      center/cover;
+      40% 50% / cover;
+
     h3 {
       font-size: 32px;
       font-weight: 600;

@@ -1,19 +1,7 @@
 import { Container, Row, Col } from "reactstrap";
 import "../css/category-section.css";
-
+import { categories } from "../data.json";
 function CategorySection() {
-  const categories = [
-    { name: "YENİ! Kore", img: "../../images/iteration-2-images/icons/1.svg" },
-    { name: "Pizza", img: "../../images/iteration-2-images/icons/2.svg" },
-    { name: "Burger", img: "../../images/iteration-2-images/icons/3.svg" },
-    { name: "Kızartmalar", img: "../../images/iteration-2-images/icons/4.svg" },
-    { name: "Fast Food", img: "../../images/iteration-2-images/icons/5.svg" },
-    {
-      name: "Gazlı İçecek",
-      img: "../../images/iteration-2-images/icons/6.svg",
-    },
-  ];
-
   return (
     <section className="category-section">
       <Container>

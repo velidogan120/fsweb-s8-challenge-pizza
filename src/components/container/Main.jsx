@@ -1,12 +1,12 @@
-import Header from "../Header";
 import Footer from "../Footer";
-import Router from "../../router/Router";
+import Header from "../Header";
+import StoreManagement from "../store/StoreManagement";
 
 function Main() {
   return (
     <>
       <Header />
-      <Router />
+      <StoreManagement />
       <Footer />
     </>
   );
